@@ -1,0 +1,101 @@
+{
+  "dolar": {
+    "n": 500,
+    "n_train": 400,
+    "n_test": 100,
+    "MSE": 2376.9708765724636,
+    "RMSE": 48.754188297750005,
+    "MAE": 37.00645389507639,
+    "R2_test": 0.996312811756911,
+    "R2_train": 0.9947566971157091,
+    "intercepto": 3985.7832908942432,
+    "coeficientes": {
+      "Dia": 4.984338715884642,
+      "Inflacion": -870.7317083114684,
+      "Tasa_interes": -1.3774312878080708
+    },
+    "p_valores": {
+      "Intercepto": 0.0,
+      "Dia": 0.0,
+      "Inflacion": 0.09596653401383093,
+      "Tasa_interes": 0.7972478128006424
+    },
+    "estandarizados": {
+      "Dia": 0.9975678768755017,
+      "Inflacion": -0.006083410883003832,
+      "Tasa_interes": -0.0009405138896582028
+    },
+    "correlaciones": {
+      "Dia": 0.9975794994930401,
+      "Inflacion": 0.019594608928443634,
+      "Tasa_interes": 0.07429859928905629
+    },
+    "mayor_impacto": "Dia"
+  },
+  "glucosa": {
+    "n": 2000,
+    "n_train": 1600,
+    "n_test": 400,
+    "MSE": 233.6930004508584,
+    "RMSE": 15.287020653183484,
+    "MAE": 12.219782574464602,
+    "R2_test": 0.6813715865404839,
+    "R2_train": 0.6862121817902269,
+    "intercepto": 65.86086530452535,
+    "coeficientes": {
+      "Edad": 1.2265900344995708,
+      "IMC": 0.9333730560350998,
+      "Actividad_Fisica": -2.0852763430432835
+    },
+    "p_valores": {
+      "Intercepto": 0.0,
+      "Edad": 0.0,
+      "IMC": 0.0,
+      "Actividad_Fisica": 0.0
+    },
+    "estandarizados": {
+      "Edad": 0.7873655881000817,
+      "IMC": 0.1358776513538698,
+      "Actividad_Fisica": -0.22288223396670212
+    },
+    "correlaciones": {
+      "Edad": 0.7897924483923403,
+      "IMC": 0.13831772372658327,
+      "Actividad_Fisica": -0.19839451257356172
+    },
+    "mayor_impacto": "Edad"
+  },
+  "energia": {
+    "n": 10000,
+    "n_train": 8000,
+    "n_test": 2000,
+    "MSE": 429.51869176035575,
+    "RMSE": 20.724832731782318,
+    "MAE": 16.510114230844557,
+    "R2_test": 0.8968196536749335,
+    "R2_train": 0.9014539402878962,
+    "intercepto": 101.28823172887508,
+    "coeficientes": {
+      "Temperatura": 9.95286590779165,
+      "Hora": 5.019813389575861,
+      "Dia_Semana": -3.0311766574336483
+    },
+    "p_valores": {
+      "Intercepto": 0.0,
+      "Temperatura": 0.0,
+      "Hora": 0.0,
+      "Dia_Semana": 0.0
+    },
+    "estandarizados": {
+      "Temperatura": 0.7802901822787951,
+      "Hora": 0.5464071944729574,
+      "Dia_Semana": -0.09543221882395825
+    },
+    "correlaciones": {
+      "Temperatura": 0.771915466383806,
+      "Hora": 0.5289633405020843,
+      "Dia_Semana": -0.10218745253518413
+    },
+    "mayor_impacto": "Temperatura"
+  }
+}
